@@ -15,5 +15,5 @@ spec:
         app: go-server-ci
     spec:
       containers:
-      - image: laur3141/go-server-ci
+      - image: fc728793ffc7bc8af76e956970570b2ce4045eba
         name: go-server-ci
