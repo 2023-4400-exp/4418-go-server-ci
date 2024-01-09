@@ -16,12 +16,12 @@ func main() {
 
 func Hello() echo.HandlerFunc {
     return func(c echo.Context) error {
-        return c.String(http.StatusOK, "4418: 最近寒くなって来た")
+        return c.String(http.StatusOK, "4418: CD難しいね")
     }
 }
 
 func ApiHelloGet() echo.HandlerFunc {
     return func(c echo.Context) error {
-        return c.JSON(http.StatusOK, map[string]interface{}{"studentId": "4418", "message": "そろそろ寒くなってきた"})
+        return c.JSON(http.StatusOK, map[string]interface{}{"studentId": "4418", "message": "CD難しいね"})
     }
 }
